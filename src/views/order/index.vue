@@ -26,11 +26,11 @@
       />
     </el-row>
   </el-card>
-  <add ref="DialogAddRef" @success="getAgentList(page)"></add>
+  <!-- <add ref="DialogAddRef" @success="getAgentList(page)"></add> -->
 </template>
 
 <script setup>
-import add from "./components/add.vue";
+// import add from "./components/add.vue";
 import { agentList } from "../../api/agent";
 import { ref } from "vue";
 
